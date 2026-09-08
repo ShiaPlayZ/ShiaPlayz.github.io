@@ -1,0 +1,42 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+th, td {
+  border: 1px solid #cccccc;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #fafafa;
+}
+.list-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none; /* Removes the bullet point */
+  padding: 0;
+  max-width: 300px;      /* Limits total width so image stays close to text */
+}
+
+
+.img_kenzie {
+  width: 50px;           
+  height: auto;          
+}
+.img_rheagan {
+  width: 50px;           
+  height: auto;          
+}
+.img_danny {
+  width: 50px;           
+  height: auto;          
+}
